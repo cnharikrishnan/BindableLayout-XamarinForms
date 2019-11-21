@@ -2,6 +2,7 @@ XamarinForms-BindableLayout
 ================
 
 In this article, you will learn how to use a Bindable Layout in Xamarin.Forms.
+
 <img src="Screenshots/BindableLayout2.png" Width="400" />
 
 Xamarin.Forms is an open-source UI framework that runs on multiple platforms with a single shared codebase. It allows developers to create user interfaces in XAML with code-behind in C#. These interfaces are rendered as performant native controls on each platform.
@@ -29,15 +30,19 @@ Visual Studio 2019 has more options in the launch view.
 * Create a new project. 
  
 Choose "Create a new project".
+
 <img src="Screenshots/XForms_ProjectCreationWizard1.png" Width="700" />
 
 Now, filter by Project Type as Mobile and choose the Mobile App (Xamarin.Forms).
+
 <img src="Screenshots/XForms_ProjectCreationWizard2.png" Width="700" />
 
 Enter the project name of your wish. Usually, the project and solution name are the same for an app. Choose your preferred location for the project and click "Create".
+
 <img src="Screenshots/XForms_ProjectCreationWizard3.png" Width="700" />
 
 Select the Blank App and target platforms - Android, iOS and Windows (UWP).
+
 <img src="Screenshots/XForms_ProjectCreationWizard4.png" Width="550" />
 
 Wait for the solution to load. Expand the solution using the Solution Explorer. By default, you can see 4 projects (.NET Standard, Android, iOS and UWP). 
@@ -148,6 +153,7 @@ Go to MainPage.Xaml and write the following code
 ```
 
 Click the "Run" button to try it out.
+
 <img src="Screenshots/BindableLayout1.png" Width="400" />
 
 ### Note:
