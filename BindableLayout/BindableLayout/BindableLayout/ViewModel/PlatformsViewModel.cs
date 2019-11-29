@@ -1,12 +1,13 @@
-﻿using System;
+﻿using BindableLayout.Model;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BindableLayout
+namespace BindableLayout.ViewModel
 {
-    public class ViewModel
+    public class PlatformsViewModel
     {
-        public ViewModel()
+        public PlatformsViewModel()
         {
             this.GetContactsList();
         }

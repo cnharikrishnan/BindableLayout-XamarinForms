@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 
-namespace BindableLayout
+namespace BindableLayout.Model
 {
     public class PlatformInfo : INotifyPropertyChanged
     {
